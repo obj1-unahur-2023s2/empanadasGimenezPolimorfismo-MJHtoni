@@ -3,6 +3,8 @@ object galvan {
 	var totalDinero = 0
 	var totalDeuda = 0
 	
+	method totalDeuda() = totalDeuda
+	method totalDinero() = totalDinero
 	method pagarDeuda() {
 		if(totalDinero >= totalDeuda){
 			totalDinero -= totalDeuda

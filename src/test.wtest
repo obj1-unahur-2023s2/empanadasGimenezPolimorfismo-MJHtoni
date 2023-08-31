@@ -1,0 +1,12 @@
+import empleados.*
+import local.*
+
+describe "Test de empleados"{
+
+	test "Saldar deuda" {
+		galvan.cobrarSueldo()
+		galvan.gastar(120000)
+		assert.equals(galvan.totalDinero(), 30000)
+
+	}
+}
